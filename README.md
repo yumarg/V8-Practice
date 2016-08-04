@@ -11,4 +11,4 @@ This repository contains several simple C++ programs that use Google's V8 JavaSc
 To run an example, `cd` to the appropriate folder and enter `./runmain`.
 
 ## Notes
-The version of V8 used for these examples is 4.8.
+The version of V8 used for these examples is 4.8. The V8 binary files used for these examples are generating from building V8 on a Linux 64-bit machine. These examples have not been tested on other operating systems.
