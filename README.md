@@ -5,7 +5,7 @@ This repository contains several simple programs using Google's V8 JavaScript En
 ## Examples
 * [executeJavaScriptCode](http://github.com/yumarg/V8-Practice/tree/master/executeJavaScriptCode)
 * [bindFunctions](http://github.com/yumarg/V8-Practice/tree/master/bindFunctions)
-* To be continued..
+* [bindFunctionsModular](http://github.com/yumarg/V8-Practice/tree/master/bindFunctionsModular)
 
 ## Usage
 After cloning the repo, you can try running each example via a simple `./runmain` within the folder of whichever example you wish to run.

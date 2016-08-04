@@ -1,0 +1,6 @@
+#!/bin/bash
+#compile and run main
+
+g++ -std=c++11 -pedantic -Wno-long-long -falign-loops=32 -I../ main.C v8engine.C API.C variables.C -o main -Wl,--start-group -L../v8libs -lv8_base -lv8_libbase -lv8_nosnapshot -lv8_libplatform -licuuc -licui18n -licudata -Wl,--end-group -lrt -ldl -pthread
+
+./main
